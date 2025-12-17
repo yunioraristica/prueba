@@ -16,7 +16,7 @@ load_dotenv()
 
 # Configuración
 BOT_TOKEN = os.getenv("BOT_TOKEN", "8561257858:AAHRP_V4bCs0kpPHHFAMNv5v_KbBWIxQCRg")
-ADMIN_ID = int(os.getenv("ADMIN_ID", "Wilfre013"))
+ADMIN_ID = int(os.getenv("ADMIN_ID", "@Wilfre013"))
 ADMINS = [ADMIN_ID] if ADMIN_ID != 0 else []
 PORT = int(os.getenv("PORT", "10000"))
 
